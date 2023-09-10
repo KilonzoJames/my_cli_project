@@ -24,6 +24,7 @@ To get started with the Task Manager CLI, follow these steps:
 2. Create a virtual environment (optional but recommended):
 pipenv install
 pipenv shell
+pytest
 
 3. Initialize the database:
 
@@ -61,6 +62,7 @@ This project relies on the following Python packages, which are automatically in
 
 rich: A library for adding color and style to terminal output.
 typer: A Python library for building command-line applications.
+pytest: A testing framework for Python that simplifies the process of writing and executing test cases for your Python code.
 
 ## Database
 The Task Manager CLI uses an SQLite database to store task data. The database schema is managed using Alembic for easy updates and migrations. You can find the database file at my_database.db.

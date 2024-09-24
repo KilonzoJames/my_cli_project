@@ -45,6 +45,9 @@ For help use:
 3. python3 tasks_cli.py update [POSITION] --task "NEW_TASK_TEXT" --category "NEW_CATEGORY_TEXT": Update a task's details (task name or category).
 4. python3 tasks_cli.py complete [POSITION]: Mark a task as completed.
 5. python3 tasks_cli.py show: Display the list of tasks.
+6. python3 tasks_cli.py create-user: Create a user.
+7. python3 tasks_cli.py show-users: Display the list of users.
+8. python3 tasks_cli.py assign-task "username" "task" : Assign a user a task.
 
 ## Features
 Add Tasks: Quickly add new tasks with a name and an optional category.
